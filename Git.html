@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.4">
+  <style type="text/css">
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff; min-height: 18.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; min-height: 18.0px}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 24.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; min-height: 29.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; min-height: 23.0px}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff}
+    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff; min-height: 16.0px}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px 'Apple SD Gothic Neo'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff}
+    p.p16 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px '.AppleKoreanFont'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Apple SD Gothic Neo SemiBold'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Apple SD Gothic Neo'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    p.p20 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 16.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    p.p21 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Apple SD Gothic Neo'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff}
+    p.p22 {margin: 0.0px 0.0px 16.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff}
+    p.p23 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; -webkit-text-stroke: #000000}
+    p.p24 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Apple SD Gothic Neo'; -webkit-text-stroke: #000000}
+    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; min-height: 18.0px}
+    p.p28 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px '.AppleKoreanFont'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    li.li8 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    li.li9 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Apple SD Gothic Neo'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    li.li15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Apple SD Gothic Neo'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    li.li25 {margin: 0.0px 0.0px 16.0px 0.0px; font: 13.6px '.AppleSystemUIFontMonospaced'; color: #1b1f23; -webkit-text-stroke: #1b1f23}
+    span.s1 {font-kerning: none}
+    span.s2 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s3 {font: 16.0px 'Apple SD Gothic Neo'; font-kerning: none}
+    span.s4 {font: 24.0px AppleMyungjo; font-kerning: none}
+    span.s5 {font: 16.0px 'Helvetica Neue'; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s6 {font: 16.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
+    span.s7 {font-kerning: none; background-color: #ffffff}
+    span.s8 {font: 16.0px 'Apple SD Gothic Neo'; font-kerning: none; background-color: #ffffff}
+    span.s9 {font: 13.6px '.AppleSystemUIFontMonospaced'; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s10 {font: 13.6px '.AppleSystemUIFontMonospaced'; font-kerning: none; background-color: #ffffff}
+    span.s11 {font: 18.0px Times; font-kerning: none}
+    span.s12 {font: 13.6px 'Apple SD Gothic Neo'; font-kerning: none}
+    span.s13 {font: 13.6px '.AppleSystemUIFontMonospaced'; font-kerning: none}
+    span.s14 {font: 13.6px 'Apple SD Gothic Neo'; font-kerning: none; background-color: #ffffff}
+    span.s15 {font: 18.0px AppleMyungjo; font-kerning: none}
+    span.s16 {font: 16.0px 'Helvetica Neue'; font-kerning: none}
+    span.s17 {font: 16.0px '.AppleKoreanFont'; font-kerning: none}
+    span.s18 {font: 15.0px '.AppleKoreanFont'; font-kerning: none}
+    span.s19 {font: 16.0px '.AppleKoreanFont'; font-kerning: none; background-color: #ffffff}
+    table.t1 {background-color: #ffffff; margin: 0.0px 0.0px 16.0px 0.0px; border-collapse: collapse}
+    td.td1 {width: 293.9px; padding: 6.0px 13.0px 6.0px 13.0px}
+    td.td2 {width: 140.3px; padding: 6.0px 13.0px 6.0px 13.0px}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+    ul.ul2 {list-style-type: circle}
+    ul.ul3 {list-style-type: square}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 24.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">GIT == Git Is Team</span></h1>
+<ul class="ul1">
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#git-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0"><span class="s1">Git </span><span class="s3">설치하기</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#github%EC%97%90-%EC%BD%94%EB%93%9C-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0"><span class="s1">Github</span><span class="s3">에</span><span class="s1"> </span><span class="s3">코드</span><span class="s1"> </span><span class="s3">저장하기</span><span class="s1"> - </span><span class="s3">버전</span><span class="s1"> </span><span class="s3">관리</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#git-%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0"><span class="s1">Git </span><span class="s3">변경사항</span><span class="s1"> </span><span class="s3">확인하기</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#git%EC%9C%BC%EB%A1%9C-%EC%88%98%EC%A0%95%EC%82%AC%ED%95%AD-reset%ED%95%98%EA%B8%B0"><span class="s1">Git</span><span class="s3">으로</span><span class="s1"> </span><span class="s3">수정사항</span><span class="s1"> reset</span><span class="s3">하기</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#git-branch%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EB%B0%A9%EB%B2%95"><span class="s1">Git Branch</span><span class="s3">를</span><span class="s1"> </span><span class="s3">다루는</span><span class="s1"> </span><span class="s3">방법</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#github-code-versioning"><span class="s1">Github code versioning</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="https://github.com/amamov/gits#github%EC%97%90%EC%84%9C-%ED%98%91%EC%97%85%EC%9D%84-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95"><span class="s1">github</span><span class="s3">에서</span><span class="s1"> </span><span class="s3">협업을</span><span class="s1"> </span><span class="s3">하는</span><span class="s1"> </span><span class="s3">방법</span></a></span></li>
+  <li class="li2"><span class="s2"><a href="http://try.github.io/"><span class="s1">git playground</span></a></span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 24.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">Git </span><span class="s4">설치</span></h1>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">Git install (Window)</span></h2>
+<ol class="ol1">
+  <li class="li8"><span class="s2"><a href="https://git-scm.com/"><span class="s1">Window Git </span><span class="s3">설치</span></a></span></li>
+  <li class="li9"><span class="s5"></span><span class="s6">"<b>git bash</b>"</span><span class="s7">를</span><span class="s6"> </span><span class="s7">데스크탑</span><span class="s6"> </span><span class="s7">검색한</span><span class="s6"> </span><span class="s7">후</span><span class="s6"> </span><span class="s7">실행한다</span><span class="s6">.</span></li>
+</ol>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">Git install (mac)</span></h2>
+<ol class="ol1">
+  <li class="li8"><span class="s2"></span><span class="s8">현재</span><span class="s7"> git version</span><span class="s8">을</span><span class="s7"> </span><span class="s8">확인한다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s2"></span><span class="s7">$ git --version</span></li>
+  </ul>
+  <li class="li8"><span class="s2"></span><span class="s7">Homebrew (Mac OS </span><span class="s8">패키지</span><span class="s7"> </span><span class="s8">관리자</span><span class="s7">)</span><span class="s8">를</span><span class="s7"> </span><span class="s8">설치한다</span><span class="s7">. <a href="https://brew.sh/index_ko"><span class="s1">링크</span></a></span></li>
+  <li class="li8"><span class="s2"></span><span class="s7">Homebrew</span><span class="s8">를</span><span class="s7"> </span><span class="s8">이용하여</span><span class="s7"> git</span><span class="s8">을</span><span class="s7"> </span><span class="s8">설치한다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s2"></span><span class="s7">$ brew install git</span></li>
+  </ul>
+  <li class="li8"><span class="s2"></span><span class="s8">설치된</span><span class="s7"> git </span><span class="s8">정보</span><span class="s7"> </span><span class="s8">확인</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s9"></span><span class="s10">$ brew info git</span><span class="s7"> </span><span class="s8">여기서</span><span class="s7"> Dependencies</span><span class="s8">에서</span><span class="s7"> Optiona</span><span class="s8">의</span><span class="s7"> pcre</span><span class="s8">가</span><span class="s7"> (x)</span><span class="s8">로</span><span class="s7"> </span><span class="s8">되어</span><span class="s7"> </span><span class="s8">있다면</span><span class="s7"> pcre</span><span class="s8">도</span><span class="s7"> </span><span class="s8">설치해준다</span><span class="s7">. (</span><span class="s10">$ brew install pcre</span><span class="s7">)</span></li>
+  </ul>
+  <li class="li9"><span class="s5"></span><span class="s7">설치</span><span class="s6"> </span><span class="s7">후</span><span class="s6"> </span><span class="s7">전과</span><span class="s6"> </span><span class="s7">동일한</span><span class="s6"> </span><span class="s7">버전</span><span class="s6"> </span><span class="s7">정보가</span><span class="s6"> </span><span class="s7">나온</span><span class="s6"> </span><span class="s7">경우</span><span class="s6"> </span><span class="s7">다음을</span><span class="s6"> </span><span class="s7">명령한다</span><span class="s6">.</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s2"></span><span class="s7">echo "export PATH=/usr/local/bin:\$PATH" &gt;&gt; ~/.bash_profile</span></li>
+  </ul>
+</ol>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px AppleMyungjo; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">기본적인</span><span class="s11"> </span><span class="s1">터미널</span><span class="s11"> </span><span class="s1">명령어</span><span class="s11"> </span><span class="s1">정리</span></h2>
+<p class="p12"><span class="s1">$ cd ./myFolder <span class="Apple-converted-space">  </span># </span><span class="s12">현재</span><span class="s1"> </span><span class="s12">폴더</span><span class="s1"> </span><span class="s12">안의</span><span class="s1"> myFolder</span><span class="s12">로</span><span class="s1"> </span><span class="s12">들어간다</span><span class="s1">. ("./"</span><span class="s12">는</span><span class="s1"> </span><span class="s12">생략할</span><span class="s1"> </span><span class="s12">수</span><span class="s1"> </span><span class="s12">있다</span><span class="s1">.)</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p12"><span class="s1">$ cd ../ <span class="Apple-converted-space">  </span># </span><span class="s12">현재</span><span class="s1"> </span><span class="s12">폴더의</span><span class="s1"> </span><span class="s12">부모</span><span class="s1"> </span><span class="s12">폴더로</span><span class="s1"> </span><span class="s12">이동한다</span><span class="s1">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p14"><span class="s13">$ pwd<span class="Apple-converted-space">  </span># </span><span class="s1">현재</span><span class="s13"> </span><span class="s1">어디</span><span class="s13"> </span><span class="s1">디렉토리에</span><span class="s13"> </span><span class="s1">있는지</span><span class="s13"> </span><span class="s1">경로를</span><span class="s13"> </span><span class="s1">표시한다</span><span class="s13">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p14"><span class="s13">$ ls <span class="Apple-converted-space">  </span># </span><span class="s1">현재</span><span class="s13"> </span><span class="s1">디렉토리</span><span class="s13"> </span><span class="s1">안에</span><span class="s13"> </span><span class="s1">있는</span><span class="s13"> </span><span class="s1">파일</span><span class="s13"> </span><span class="s1">목록들을</span><span class="s13"> </span><span class="s1">보여준다</span><span class="s13">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p12"><span class="s1">$ tree <span class="Apple-converted-space">  </span># </span><span class="s12">현재</span><span class="s1"> </span><span class="s12">디렉토리</span><span class="s1"> </span><span class="s12">안에</span><span class="s1"> </span><span class="s12">있는</span><span class="s1"> tree</span><span class="s12">구조를</span><span class="s1"> </span><span class="s12">보여준다</span><span class="s1">.</span></p>
+<p class="p12"><span class="s1"># brew install tree</span><span class="s12">로</span><span class="s1"> </span><span class="s12">설치해줘야</span><span class="s1"> </span><span class="s12">한다</span><span class="s1">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p12"><span class="s1">$ mkdir myFolder <span class="Apple-converted-space">  </span># myFolder </span><span class="s12">폴더를</span><span class="s1"> </span><span class="s12">현재</span><span class="s1"> </span><span class="s12">경로에</span><span class="s1"> </span><span class="s12">생성한다</span><span class="s1">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p12"><span class="s1">$ touch myFile.html <span class="Apple-converted-space">  </span># myFile.html</span><span class="s12">을</span><span class="s1"> </span><span class="s12">현재</span><span class="s1"> </span><span class="s12">경로에</span><span class="s1"> </span><span class="s12">생성한다</span><span class="s1">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p12"><span class="s1">$ rm -rf myFolder <span class="Apple-converted-space">  </span># myFolder</span><span class="s12">를</span><span class="s1"> </span><span class="s12">묻지도</span><span class="s1"> </span><span class="s12">따지지도</span><span class="s1"> </span><span class="s12">않고</span><span class="s1"> </span><span class="s12">다</span><span class="s1"> </span><span class="s12">지우기</span><span class="s1">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p12"><span class="s1">$ rm -i myFolder <span class="Apple-converted-space">  </span># </span><span class="s12">파일</span><span class="s1"> </span><span class="s12">하나하나</span><span class="s1"> </span><span class="s12">물어보고</span><span class="s1"> </span><span class="s12">다</span><span class="s1"> </span><span class="s12">지우기</span><span class="s1">.</span></p>
+<p class="p13"><span class="s1"></span><br></p>
+<p class="p10"><span class="s7">$ alias </span><span class="s14">단축명령어</span><span class="s7">="</span><span class="s14">명령어</span><span class="s7">"</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">git </span><span class="s15">설정</span><span class="s1"> (git config)</span></h2>
+<ol class="ol1">
+  <li class="li10"><span class="s2"></span><span class="s7">$ git config --global --list</span></li>
+</ol>
+<ul class="ul1">
+  <li class="li2"><span class="s2"></span><span class="s7">git</span><span class="s8">에</span><span class="s7"> </span><span class="s8">대한</span><span class="s7"> </span><span class="s8">설정을</span><span class="s7"> </span><span class="s8">볼</span><span class="s7"> </span><span class="s8">수</span><span class="s7"> </span><span class="s8">있다</span><span class="s7">.(</span><span class="s8">전역으로</span><span class="s7">)</span></li>
+  <li class="li10"><span class="s2"></span><span class="s7">$ git config --list</span><span class="s6"> </span><span class="s8">으로</span><span class="s6"> </span><span class="s8">저장소별로</span><span class="s6"> </span><span class="s8">설정을</span><span class="s6"> </span><span class="s8">조회할</span><span class="s6"> </span><span class="s8">수</span><span class="s6"> </span><span class="s8">있다</span><span class="s6">.</span></li>
+</ul>
+<ol class="ol1">
+  <li class="li10"><span class="s2"></span><span class="s7">$ git config --global user.name github-username</span></li>
+</ol>
+<ul class="ul1">
+  <li class="li2"><span class="s2"></span><span class="s7">git user name </span><span class="s8">설정</span><span class="s7"> (--global</span><span class="s8">의</span><span class="s7"> </span><span class="s8">의미는</span><span class="s7"> </span><span class="s8">해당</span><span class="s7"> </span><span class="s8">디렉터리뿐만</span><span class="s7"> </span><span class="s8">아니라</span><span class="s7"> </span><span class="s8">전체</span><span class="s7"> </span><span class="s8">모든</span><span class="s7"> </span><span class="s8">디렉터리에</span><span class="s7"> </span><span class="s8">적용된다는</span><span class="s7"> </span><span class="s8">의미이다</span><span class="s7">.)</span></li>
+  <li class="li10"><span class="s5"></span><span class="s6">ex) </span><span class="s7">$ git config --global user.name amamov</span></li>
+</ul>
+<ol class="ol1">
+  <li class="li10"><span class="s2"></span><span class="s7">$ git config --global user.email github-email</span></li>
+</ol>
+<ul class="ul1">
+  <li class="li2"><span class="s2"></span><span class="s7">git email </span><span class="s8">설정</span></li>
+  <li class="li10"><span class="s5"></span><span class="s6">ex) </span><span class="s7">$ git config --global user.email ysangsuk78@gmail.com</span></li>
+</ul>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 24.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">github</span><span class="s4">에</span><span class="s1"> </span><span class="s4">코드</span><span class="s1"> </span><span class="s4">저장하기</span></h1>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px AppleMyungjo; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s11">git </span><span class="s1">서버</span><span class="s11"> </span><span class="s1">저장소</span><span class="s11">(</span><span class="s1">원격</span><span class="s11"> </span><span class="s1">저장소</span><span class="s11">) </span><span class="s1">만들기</span></h2>
+<ol class="ol1">
+  <li class="li8"><span class="s2"></span><span class="s7">github</span><span class="s8">에</span><span class="s7"> </span><span class="s8">접속하여</span><span class="s7"> Repositories</span><span class="s8">에</span><span class="s7"> </span><span class="s8">들어가서</span><span class="s7"> New </span><span class="s8">버튼을</span><span class="s7"> </span><span class="s8">누른다</span><span class="s7">.</span></li>
+  <li class="li8"><span class="s2"></span><span class="s7">Repository</span><span class="s8">를</span><span class="s7"> </span><span class="s8">만들어준다</span><span class="s7">.</span></li>
+</ol>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px AppleMyungjo; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s11">git </span><span class="s1">로컬</span><span class="s11"> </span><span class="s1">저장소</span><span class="s11"> </span><span class="s1">만들기</span></h2>
+<ol class="ol1">
+  <li class="li10"><span class="s2"></span><span class="s7">git bash (Window OS)</span><span class="s6"> </span><span class="s8">또는</span><span class="s6"> </span><span class="s8">터미널</span><span class="s6">(Mac OS)</span><span class="s8">를</span><span class="s6"> </span><span class="s8">실행하고</span><span class="s6"> </span><span class="s8">작업</span><span class="s6"> </span><span class="s8">디렉터리로</span><span class="s6"> </span><span class="s8">들어간다</span><span class="s6">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ cd work-dir</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s7">git</span><span class="s8">을</span><span class="s7"> </span><span class="s8">초기화한다</span><span class="s7">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ git init</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s7">git local </span><span class="s8">작업</span><span class="s7"> </span><span class="s8">디렉터리의</span><span class="s7"> </span><span class="s8">모든</span><span class="s7"> </span><span class="s8">변경</span><span class="s7"> </span><span class="s8">사항들을</span><span class="s7"> staging area</span><span class="s8">로</span><span class="s7"> </span><span class="s8">이동시킨다</span><span class="s7">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ git add .</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s7">git local </span><span class="s8">작업</span><span class="s7"> </span><span class="s8">디렉터리의</span><span class="s7"> </span><span class="s8">특정</span><span class="s7"> </span><span class="s8">파일</span><span class="s7"> </span><span class="s8">또는</span><span class="s7"> </span><span class="s8">폴더의</span><span class="s7"> </span><span class="s8">변경</span><span class="s7"> </span><span class="s8">사항들을</span><span class="s7"> staging area</span><span class="s8">로</span><span class="s7"> </span><span class="s8">이동시킨다</span><span class="s7">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ git add filename(or dirname)</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s7">git staging area</span><span class="s8">에</span><span class="s7"> </span><span class="s8">있는</span><span class="s7"> </span><span class="s8">변경</span><span class="s7"> </span><span class="s8">사항들을</span><span class="s7"> repository</span><span class="s8">로</span><span class="s7"> </span><span class="s8">이동시킨다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s5"></span><span class="s8">짧은</span><span class="s6"> commit message</span><span class="s8">로</span><span class="s6"> commit </span><span class="s8">하는</span><span class="s6"> </span><span class="s8">경우</span><span class="s6"> : </span><span class="s7">$ git commit -m "commit message"</span></li>
+    <li class="li2"><span class="s2"></span><span class="s8">길고</span><span class="s7"> </span><span class="s8">자세한</span><span class="s7"> commit message</span><span class="s8">로</span><span class="s7"> commit </span><span class="s8">하는</span><span class="s7"> </span><span class="s8">경우</span><span class="s7"> : </span><span class="s10">$ git commit</span><span class="s8">으로</span><span class="s7"> </span><span class="s8">작성</span><span class="s7"> </span><span class="s8">창으로</span><span class="s7"> </span><span class="s8">넘어간</span><span class="s7"> </span><span class="s8">후</span><span class="s7"> </span><span class="s8">자세히</span><span class="s7"> </span><span class="s8">작성</span></li>
+    <li class="li10"><span class="s2"></span><span class="s7">$ git commit -am "commit message"</span><span class="s6"> : add</span><span class="s8">와</span><span class="s6"> commit</span><span class="s8">을</span><span class="s6"> </span><span class="s8">동시에</span><span class="s6"> </span><span class="s8">한다</span><span class="s6">. (</span><span class="s8">한번이라도</span><span class="s6"> commit</span><span class="s8">을</span><span class="s6"> </span><span class="s8">했던</span><span class="s6"> </span><span class="s8">파일에</span><span class="s6"> </span><span class="s8">대해서만</span><span class="s6"> </span><span class="s8">사용할</span><span class="s6"> </span><span class="s8">수</span><span class="s6"> </span><span class="s8">있다</span><span class="s6">.)</span></li>
+  </ul>
+</ol>
+<p class="p12"><span class="s1">$ git commit -m "first commit"</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s7">main branch</span><span class="s8">를</span><span class="s7"> </span><span class="s8">생성한다</span><span class="s7">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ git branch -M main</span></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">git </span><span class="s15">서버</span><span class="s1"> </span><span class="s15">저장소</span><span class="s1">(</span><span class="s15">원격</span><span class="s1"> </span><span class="s15">저장소</span><span class="s1">)</span><span class="s15">와</span><span class="s1"> </span><span class="s15">로컬</span><span class="s1"> </span><span class="s15">저장소</span><span class="s1"> </span><span class="s15">연결</span><span class="s1"> &amp; Push &amp; Pull</span></h2>
+<ol class="ol1">
+  <li class="li15"><span class="s5"></span><span class="s7">서버</span><span class="s6"> </span><span class="s7">저장소와</span><span class="s6"> </span><span class="s7">로컬</span><span class="s6"> </span><span class="s7">저장소의</span><span class="s6"> </span><span class="s7">통로를</span><span class="s6"> </span><span class="s7">만든다</span><span class="s6">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ git remote add origin https://github.com/amamov/git-study.git</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s8">로컬</span><span class="s7"> </span><span class="s8">저장소의</span><span class="s7"> repository</span><span class="s8">를</span><span class="s7"> </span><span class="s8">서버의</span><span class="s7"> origin main</span><span class="s8">의</span><span class="s7"> repository</span><span class="s8">에</span><span class="s7"> </span><span class="s8">올린다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s9"></span><span class="s10">$ git push -fu origin main</span><span class="s7"> </span><span class="s8">명령어는</span><span class="s7"> </span><span class="s8">로컬</span><span class="s7"> </span><span class="s8">저장소의</span><span class="s7"> repository</span><span class="s8">를</span><span class="s7"> </span><span class="s8">서버의</span><span class="s7"> origin main</span><span class="s8">의</span><span class="s7"> repository</span><span class="s8">에</span><span class="s7"> </span><span class="s8">강제로</span><span class="s7"> </span><span class="s8">올린다</span><span class="s7">. (</span><span class="s8">서버</span><span class="s7"> </span><span class="s8">저장소</span><span class="s7"> </span><span class="s8">파일들은</span><span class="s7"> </span><span class="s8">사라진다</span><span class="s7">.)</span></li>
+  </ul>
+</ol>
+<p class="p12"><span class="s1">$ git push -u origin main</span></p>
+<ol class="ol1">
+  <li class="li2"><span class="s2"></span><span class="s8">서버</span><span class="s7"> </span><span class="s8">저장소의</span><span class="s7"> repository</span><span class="s8">를</span><span class="s7"> </span><span class="s8">로컬</span><span class="s7"> </span><span class="s8">저장소에</span><span class="s7"> </span><span class="s8">가져온다</span><span class="s7">.</span></li>
+</ol>
+<p class="p12"><span class="s1">$ git pull</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">git </span><span class="s15">서버</span><span class="s1"> </span><span class="s15">저장소에</span><span class="s1"> </span><span class="s15">있는</span><span class="s1"> Repository</span><span class="s15">를</span><span class="s1"> </span><span class="s15">로컬</span><span class="s1"> </span><span class="s15">저장소에</span><span class="s1"> </span><span class="s15">저장하기</span></h2>
+<p class="p12"><span class="s1">$ git clone https://github.com/amamov/git-study.git</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px AppleMyungjo; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s11">Git </span><span class="s1">변경사항</span><span class="s11"> </span><span class="s1">확인하기</span></h2>
+<ul class="ul1">
+  <li class="li2"><span class="s9"></span><span class="s10">$ git log</span><span class="s7"> : git</span><span class="s8">에</span><span class="s7"> commit</span><span class="s8">된</span><span class="s7"> </span><span class="s8">변경사항을</span><span class="s7"> </span><span class="s8">확인할</span><span class="s7"> </span><span class="s8">수</span><span class="s7"> </span><span class="s8">있다</span><span class="s7">.</span></li>
+  <li class="li10"><span class="s2"></span><span class="s7">$ git diff commit_1_ID commit_2_ID</span><span class="s6"> : commit_1_ID </span><span class="s8">기준으로</span><span class="s6"> commit_2_ID</span><span class="s8">와</span><span class="s6"> </span><span class="s8">변경사항을</span><span class="s6"> </span><span class="s8">비교한다</span><span class="s6">.</span></li>
+  <li class="li15"><span class="s9"></span><span class="s10">$ git diff </span><span class="s14">로컬저장소</span><span class="s10"> </span><span class="s14">원격저장소</span><span class="s6"> : </span><span class="s7">원격</span><span class="s6"> </span><span class="s7">저장소와</span><span class="s6"> </span><span class="s7">로컬</span><span class="s6"> </span><span class="s7">저장소</span><span class="s6"> </span><span class="s7">간의</span><span class="s6"> </span><span class="s7">변경사항을</span><span class="s6"> </span><span class="s7">비교한다</span><span class="s6">.</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s5"></span><span class="s6">ex. </span><span class="s7">$ git diff </span><span class="s14">비교대상</span><span class="s7">_branch</span><span class="s14">이름</span><span class="s7"> origin/branch</span><span class="s14">이름</span></li>
+  </ul>
+  <li class="li10"><span class="s2"></span><span class="s7">$ git diff </span><span class="s14">비교대상</span><span class="s7">_branch_</span><span class="s14">이름</span><span class="s7"> </span><span class="s14">기준</span><span class="s7">_branch_</span><span class="s14">이름</span><span class="s6"> : </span><span class="s8">브랜치간의</span><span class="s6"> </span><span class="s8">변경사항을</span><span class="s6"> </span><span class="s8">비교한다</span><span class="s6">.</span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">Git</span><span class="s15">으로</span><span class="s1"> </span><span class="s15">수정사항</span><span class="s1"> reset</span><span class="s15">하기</span></h2>
+<p class="p16"><span class="s1">repository</span><span class="s3">에</span><span class="s1"> </span><span class="s3">올린</span><span class="s1"> </span><span class="s3">상태에서</span><span class="s1"> </span><span class="s13">$ git reset</span><span class="s3">으로</span><span class="s1"> </span><span class="s3">되돌릴</span><span class="s1"> </span><span class="s3">수</span><span class="s1"> </span><span class="s3">있다</span><span class="s1">.</span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p17"><span class="s1"><b>어디까지</b></span><span class="s16"><b> </b></span><span class="s1"><b>되돌릴까</b></span><span class="s16"><b>?</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p18"><span class="s17"><b>옵션</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p19"><span class="s1">작업</span><span class="s16"> </span><span class="s1">디렉터리가</span><span class="s16"> </span><span class="s1">수정하기</span><span class="s16"> </span><span class="s1">전으로</span><span class="s16"> </span><span class="s1">바뀐다</span><span class="s16">.</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p20"><span class="s1">--hard HEAD^</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p19"><span class="s16">add</span><span class="s1">하기</span><span class="s16"> </span><span class="s1">전</span><span class="s16"> </span><span class="s1">상황으로</span><span class="s16"> </span><span class="s1">되돌아간다</span><span class="s16">. (</span><span class="s1">디폴트</span><span class="s16">)</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p20"><span class="s1">--mixed HEAD^</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p20"><span class="s1">commit</span><span class="s3">한</span><span class="s1"> </span><span class="s3">것</span><span class="s1"> </span><span class="s3">까지만</span><span class="s1"> </span><span class="s3">취소한다</span><span class="s1">.</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p20"><span class="s1">--soft HEAD^</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<ul class="ul1">
+  <li class="li2"><span class="s2"></span><span class="s7">HEAD : </span><span class="s8">가장</span><span class="s7"> </span><span class="s8">최근</span><span class="s7"> </span><span class="s8">버전에서</span></li>
+  <li class="li2"><span class="s2"></span><span class="s7">^ : </span><span class="s8">하나</span><span class="s7"> </span><span class="s8">되돌리기</span></li>
+</ul>
+<p class="p21"><span class="s1">만약</span><span class="s16"> </span><span class="s1">가장</span><span class="s16"> </span><span class="s1">최근</span><span class="s16"> </span><span class="s1">커밋으로부터</span><span class="s16"> </span><span class="s1">세</span><span class="s16"> </span><span class="s1">개</span><span class="s16"> </span><span class="s1">전으로</span><span class="s16"> </span><span class="s1">되돌리려면</span><span class="s16"> </span><span class="s13">$ git reset --hard HEAD^^^</span><span class="s1">를</span><span class="s16"> </span><span class="s1">사용하면</span><span class="s16"> </span><span class="s1">된다</span><span class="s16">.</span></p>
+<p class="p22"><span class="s3">특정</span><span class="s16"> </span><span class="s3">커밋으로</span><span class="s16"> </span><span class="s3">되돌리려면</span><span class="s16"> </span><span class="s1">$ git reset --hard </span><span class="s12">버전</span><span class="s1">_ID</span><span class="s16"> </span><span class="s3">명령을</span><span class="s16"> </span><span class="s3">사용하면</span><span class="s16"> </span><span class="s3">된다</span><span class="s16">.</span></p>
+<p class="p23"><span class="s7">$ git add .</span><span class="s8">으로</span><span class="s6"> stage</span><span class="s8">에</span><span class="s6"> </span><span class="s8">올라간</span><span class="s6"> </span><span class="s8">파일들을</span><span class="s6"> </span><span class="s7">$ git reset HEAD</span><span class="s8">로</span><span class="s6"> </span><span class="s8">취소할</span><span class="s6"> </span><span class="s8">수</span><span class="s6"> </span><span class="s8">있다</span><span class="s6">.</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p24"><span class="s10">reset</span><span class="s6"> </span><span class="s7">대신에</span><span class="s6"> </span><span class="s10">revert</span><span class="s7">를</span><span class="s6"> </span><span class="s7">사용하면</span><span class="s6"> </span><span class="s7">되돌린</span><span class="s6"> </span><span class="s7">버전</span><span class="s6"> </span><span class="s7">이후의</span><span class="s6"> </span><span class="s7">버전들은</span><span class="s6"> </span><span class="s7">모두</span><span class="s6"> </span><span class="s7">유지되고</span><span class="s6">, revert</span><span class="s7">되었다는</span><span class="s6"> </span><span class="s7">사실을</span><span class="s6"> </span><span class="s7">담은</span><span class="s6"> commit</span><span class="s7">만</span><span class="s6"> </span><span class="s7">새로</span><span class="s6"> </span><span class="s7">추가된다</span><span class="s6">. </span><span class="s7">즉</span><span class="s6">, </span><span class="s10">reset</span><span class="s7">은</span><span class="s6"> </span><span class="s7">과거</span><span class="s6"> </span><span class="s7">자체를</span><span class="s6"> </span><span class="s7">바꾸는</span><span class="s6"> </span><span class="s7">명령어이고</span><span class="s6">, </span><span class="s10">revert</span><span class="s7">는</span><span class="s6"> </span><span class="s7">과거를</span><span class="s6"> </span><span class="s7">변경시켰다는</span><span class="s6"> </span><span class="s7">새로운</span><span class="s6"> commit</span><span class="s7">으로써</span><span class="s6"> </span><span class="s7">새로운</span><span class="s6"> commit</span><span class="s7">을</span><span class="s6"> </span><span class="s7">만드는</span><span class="s6"> </span><span class="s7">명령이다</span><span class="s6">.</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">Git Branch</span><span class="s15">를</span><span class="s1"> </span><span class="s15">다루는</span><span class="s1"> </span><span class="s15">방법</span></h2>
+<ul class="ul1">
+  <li class="li25"><span class="s2"></span><span class="s7">$ git branch</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s8">현재</span><span class="s7"> branch </span><span class="s8">목록</span><span class="s7"> </span><span class="s8">보기</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git branch </span><span class="s14">브랜치이름</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s8">새로운</span><span class="s7"> branch</span><span class="s8">를</span><span class="s7"> </span><span class="s8">만들다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git checkout </span><span class="s14">브랜치이름</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s8">특정</span><span class="s7"> branch</span><span class="s8">로</span><span class="s7"> </span><span class="s8">들어가기</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git merge </span><span class="s14">합치려는</span><span class="s7">_</span><span class="s14">브랜치</span><span class="s7">_</span><span class="s14">이름</span></li>
+  <ul class="ul2">
+    <li class="li15"><span class="s5"></span><span class="s7">현재</span><span class="s6"> </span><span class="s7">브랜치와</span><span class="s6"> </span><span class="s7">합치려는</span><span class="s6"> </span><span class="s7">브랜치를</span><span class="s6"> </span><span class="s7">합친다</span><span class="s6">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git branch -d </span><span class="s14">삭제하려는</span><span class="s7">_</span><span class="s14">브랜치</span><span class="s7">_</span><span class="s14">이름</span></li>
+  <ul class="ul2">
+    <li class="li15"><span class="s5"></span><span class="s7">해당하는</span><span class="s6"> </span><span class="s7">브랜치를</span><span class="s6"> </span><span class="s7">삭제한다</span><span class="s6">.</span></li>
+  </ul>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p6"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 18.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">Github code versioning</span></h2>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>git remote (-v)</b></span></h3>
+<p class="p28"><span class="s3">원격저장소</span><span class="s16"> </span><span class="s1"><b>조회</b></span><span class="s16"><b>(</b></span><span class="s1"><b>추가</b></span><span class="s16"><b>)</b></span><span class="s1"><b>하기</b></span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s5"></span><span class="s7">내</span><span class="s6"> </span><span class="s7">로컬</span><span class="s6"> repository</span><span class="s7">와</span><span class="s6"> </span><span class="s7">상호작용하고</span><span class="s6"> </span><span class="s7">있는</span><span class="s6"> (</span><span class="s7">혹은</span><span class="s6"> </span><span class="s7">할</span><span class="s6"> </span><span class="s7">수</span><span class="s6"> </span><span class="s7">있는</span><span class="s6">) </span><span class="s7">원격</span><span class="s6"> </span><span class="s7">저장소들의</span><span class="s6"> </span><span class="s7">목록을</span><span class="s6"> </span><span class="s7">조회할</span><span class="s6"> </span><span class="s7">수</span><span class="s6"> </span><span class="s7">있다</span><span class="s6">.</span></li>
+  <li class="li15"><span class="s9"></span><span class="s10">-v</span><span class="s7">옵션</span><span class="s6"> : </span><span class="s7">단축이름과</span><span class="s6"> URL </span><span class="s7">같이</span><span class="s6"> </span><span class="s7">보기</span></li>
+  <li class="li10"><span class="s2"></span><span class="s7">$ git remote add &lt;</span><span class="s14">단축이름</span><span class="s7">&gt; &lt;URL&gt;</span><span class="s6"> : </span><span class="s8">기존</span><span class="s6"> </span><span class="s8">워킹</span><span class="s6"> </span><span class="s8">디렉터리에</span><span class="s6"> </span><span class="s8">새</span><span class="s6"> </span><span class="s8">원격저장소를</span><span class="s6"> </span><span class="s8">추가하는</span><span class="s6"> </span><span class="s8">명령어</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s2"></span><span class="s7">$ git remote add origin &lt;URL&gt;</span><span class="s6"> : URL</span><span class="s8">에</span><span class="s6"> </span><span class="s8">있는</span><span class="s6"> </span><span class="s8">원격저장소를</span><span class="s6"> origin</span><span class="s8">이라는</span><span class="s6"> </span><span class="s8">이름으로</span><span class="s6"> </span><span class="s8">추가하기</span></li>
+  </ul>
+  <li class="li10"><span class="s2"></span><span class="s7">$ git remote rm &lt;</span><span class="s14">단축이름</span><span class="s7">&gt;</span><span class="s6"> : </span><span class="s8">단축이름의</span><span class="s6"> </span><span class="s8">원격저장소와의</span><span class="s6"> </span><span class="s8">연결을</span><span class="s6"> </span><span class="s8">삭제한다</span><span class="s6">.</span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>git push</b></span></h3>
+<p class="p21"><span class="s1">원격저장소에</span><span class="s16"> </span><span class="s17"><b>밀어넣기</b></span></p>
+<ul class="ul1">
+  <li class="li2"><span class="s9"></span><span class="s10">$ git push -u origin main</span><span class="s7"> : </span><span class="s8">내</span><span class="s7"> repository</span><span class="s8">의</span><span class="s7"> main </span><span class="s8">브랜치를</span><span class="s7"> origin</span><span class="s8">의</span><span class="s7"> main </span><span class="s8">브랜치로</span><span class="s7"> push</span><span class="s8">한다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s9"></span><span class="s10">-u</span><span class="s7"> : origin main</span><span class="s8">을</span><span class="s7"> </span><span class="s8">디폴트로</span><span class="s7"> </span><span class="s8">지정</span><span class="s7">. </span><span class="s8">즉</span><span class="s7">, </span><span class="s10">$ git push</span><span class="s7">, </span><span class="s10">$ git pull</span><span class="s8">를</span><span class="s7"> </span><span class="s8">할</span><span class="s7"> </span><span class="s8">때</span><span class="s7"> </span><span class="s8">디폴트로</span><span class="s7"> origin main</span><span class="s8">에</span><span class="s7"> push, pull</span><span class="s8">한다</span><span class="s7">.</span></li>
+  </ul>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>git pull</b></span></h3>
+<p class="p28"><span class="s3">원격저장소</span><span class="s16"> </span><span class="s1"><b>갖고</b></span><span class="s16"><b> </b></span><span class="s1"><b>와서</b></span><span class="s16"><b> </b></span><span class="s1"><b>합치기</b></span></p>
+<ul class="ul1">
+  <li class="li2"><span class="s9"></span><span class="s10">$ git pull (origin main)</span><span class="s7"> : origin</span><span class="s8">을</span><span class="s7"> </span><span class="s8">내</span><span class="s7"> repository</span><span class="s8">의</span><span class="s7"> main </span><span class="s8">브랜치로</span><span class="s7"> </span><span class="s8">가지고</span><span class="s7"> </span><span class="s8">온다</span><span class="s7">.(merge)</span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>git fetch</b></span></h3>
+<p class="p28"><span class="s3">원격저장소</span><span class="s16"> </span><span class="s1"><b>일단</b></span><span class="s16"><b> </b></span><span class="s1"><b>갖고만</b></span><span class="s16"><b> </b></span><span class="s1"><b>오기</b></span></p>
+<ul class="ul1">
+  <li class="li2"><span class="s9"></span><span class="s10">$ git fetch (origin main)</span><span class="s7"> : origin</span><span class="s8">을</span><span class="s7"> </span><span class="s8">로컬</span><span class="s7"> repository</span><span class="s8">에</span><span class="s7"> merge</span><span class="s8">하지</span><span class="s7"> </span><span class="s8">말고</span><span class="s7"> </span><span class="s8">일단</span><span class="s7"> </span><span class="s8">가지고</span><span class="s7"> </span><span class="s8">온다</span><span class="s7">.</span></li>
+  <li class="li2"><span class="s9"></span><span class="s10">$ git checkout origin/main</span><span class="s7"> : origin/main </span><span class="s8">임시</span><span class="s7"> </span><span class="s8">브랜치로</span><span class="s7"> </span><span class="s8">바꾼다</span><span class="s7">. -&gt; origin</span><span class="s8">의</span><span class="s7"> </span><span class="s8">변경된</span><span class="s7"> </span><span class="s8">사항을</span><span class="s7"> </span><span class="s8">확인할</span><span class="s7"> </span><span class="s8">수</span><span class="s7"> </span><span class="s8">있다</span><span class="s7">.</span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>git clone</b></span></h3>
+<p class="p21"><span class="s1">원격저장소</span><span class="s16"> </span><span class="s17"><b>복사하기</b></span></p>
+<ul class="ul1">
+  <li class="li15"><span class="s9"></span><span class="s10">$ git clone &lt;URL&gt;</span><span class="s6"> : URL</span><span class="s7">에</span><span class="s6"> </span><span class="s7">있는</span><span class="s6"> </span><span class="s7">원격</span><span class="s6"> </span><span class="s7">저장소</span><span class="s6"> </span><span class="s7">내용을</span><span class="s6"> </span><span class="s7">현재</span><span class="s6"> </span><span class="s7">디렉터리에</span><span class="s6"> </span><span class="s7">복사해오기</span><span class="s6">.</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">origin </span><span class="s8">자동</span><span class="s7"> </span><span class="s8">생성</span><span class="s7">. </span><span class="s8">따라서</span><span class="s7"> </span><span class="s10">remote add</span><span class="s8">는</span><span class="s7"> </span><span class="s8">할</span><span class="s7"> </span><span class="s8">필요</span><span class="s7"> </span><span class="s8">없다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li10"><span class="s2"></span><span class="s7">$ git clone &lt;URL&gt; --branch &lt;branch&gt; --single-branch &lt;folder&gt;</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">URL</span><span class="s8">에</span><span class="s7"> </span><span class="s8">있는</span><span class="s7"> </span><span class="s8">원격저장소의</span><span class="s7"> </span><span class="s8">특정</span><span class="s7"> branch</span><span class="s8">를</span><span class="s7"> clone</span><span class="s8">하여</span><span class="s7"> folder</span><span class="s8">명을</span><span class="s7"> </span><span class="s8">지정한다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li15"><span class="s9"></span><span class="s10">git clone</span><span class="s7">시에</span><span class="s6"> origin</span><span class="s7">이</span><span class="s6"> </span><span class="s7">자동으로</span><span class="s6"> </span><span class="s7">생성되므로</span><span class="s6"> </span><span class="s7">이를</span><span class="s6"> </span><span class="s7">없애주려면</span><span class="s6">, </span><span class="s10">$ rm -rf .git</span><span class="s6"> </span><span class="s7">명령어를</span><span class="s6"> </span><span class="s7">사용하면</span><span class="s6"> </span><span class="s7">된다</span><span class="s6">.</span></li>
+</ul>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p5"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 24.0px Times; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1">github</span><span class="s4">에서</span><span class="s1"> </span><span class="s4">협업을</span><span class="s1"> </span><span class="s4">하는</span><span class="s1"> </span><span class="s4">방법</span></h1>
+<p class="p21"><span class="s16">joy</span><span class="s1">라는</span><span class="s16"> </span><span class="s1">팀장과</span><span class="s16"> amamov</span><span class="s1">라는</span><span class="s16"> </span><span class="s1">팀원이</span><span class="s16"> </span><span class="s1">협업을</span><span class="s16"> </span><span class="s1">한다고</span><span class="s16"> </span><span class="s1">가정하자</span><span class="s16">. </span><span class="s1">팀장이</span><span class="s16"> </span><span class="s1">만든</span><span class="s16"> repository</span><span class="s1">인</span><span class="s16"> </span><span class="s1">프로젝트</span><span class="s16"> REPO</span><span class="s1">를</span><span class="s16"> </span><span class="s1">중심으로</span><span class="s16"> </span><span class="s1">협업을</span><span class="s16"> </span><span class="s1">진행한다고</span><span class="s16"> </span><span class="s1">하자</span><span class="s16">.</span></p>
+<p class="p16"><span class="s1">amamov</span><span class="s3">는</span><span class="s1"> </span><span class="s3">팀장이</span><span class="s1"> </span><span class="s3">만든</span><span class="s1"> repository</span><span class="s3">를</span><span class="s1"> clone</span><span class="s3">한</span><span class="s1"> </span><span class="s3">후</span><span class="s1">, </span><span class="s3">로컬의</span><span class="s1"> "amamov/main" branch</span><span class="s3">에서</span><span class="s1"> </span><span class="s3">팀장의</span><span class="s1"> </span><span class="s3">코드를</span><span class="s1"> </span><span class="s3">받아오고</span><span class="s1"> "amamov/newbranch" branch</span><span class="s3">에서</span><span class="s1"> </span><span class="s3">받아온</span><span class="s1"> </span><span class="s3">코드</span><span class="s1">(main)</span><span class="s3">를</span><span class="s1"> </span><span class="s3">병합하여</span><span class="s1"> </span><span class="s3">추가로</span><span class="s1"> </span><span class="s3">작업한</span><span class="s1"> </span><span class="s3">코드와</span><span class="s1"> </span><span class="s3">함께</span><span class="s1"> </span><span class="s3">팀장에게</span><span class="s1"> pull request</span><span class="s3">를</span><span class="s1"> </span><span class="s3">보낸다</span><span class="s1">. pull request</span><span class="s3">를</span><span class="s1"> </span><span class="s3">받은</span><span class="s1"> </span><span class="s3">팀장은</span><span class="s1"> </span><span class="s3">변경</span><span class="s1"> </span><span class="s3">사항을</span><span class="s1"> </span><span class="s3">체크하고</span><span class="s1"> "joy/main"</span><span class="s3">에</span><span class="s1"> </span><span class="s3">최종적으로</span><span class="s1"> </span><span class="s3">병합한다</span><span class="s1">.</span></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>1. </b></span><span class="s18"><b>협업</b></span><span class="s1"><b> </b></span><span class="s18"><b>대상</b></span><span class="s1"><b> repository fork </b></span><span class="s18"><b>하기</b></span></h3>
+<p class="p16"><span class="s1">amamov</span><span class="s3">는</span><span class="s1"> </span><span class="s13">joy/REPO</span><span class="s3">에</span><span class="s1"> </span><span class="s3">들어가서</span><span class="s1"> fork </span><span class="s3">버튼을</span><span class="s1"> </span><span class="s3">누른다</span><span class="s1">.</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>2. fork </b></span><span class="s18"><b>해온</b></span><span class="s1"><b> </b></span><span class="s18"><b>곳에서</b></span><span class="s1"><b> clone</b></span><span class="s18"><b>하기</b></span></h3>
+<p class="p16"><span class="s1">amamov</span><span class="s3">는</span><span class="s1"> </span><span class="s3">자신이</span><span class="s1"> fork</span><span class="s3">한</span><span class="s1"> repository</span><span class="s3">를</span><span class="s1"> clone</span><span class="s3">한다</span><span class="s1">.</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>3. branch</b></span><span class="s18"><b>를</b></span><span class="s1"><b> </b></span><span class="s18"><b>만들고</b></span><span class="s1"><b> </b></span><span class="s18"><b>작성하고자</b></span><span class="s1"><b> </b></span><span class="s18"><b>하는</b></span><span class="s1"><b> </b></span><span class="s18"><b>코드</b></span><span class="s1"><b>(commit) </b></span><span class="s18"><b>편집</b></span><span class="s1"><b> </b></span><span class="s18"><b>후에</b></span><span class="s1"><b> push</b></span></h3>
+<ol class="ol1">
+  <li class="li8"><span class="s2"></span><span class="s7">amamov</span><span class="s8">는</span><span class="s7"> clone</span><span class="s8">한</span><span class="s7"> REPO</span><span class="s8">에</span><span class="s7"> </span><span class="s8">들어가서</span><span class="s7"> </span><span class="s10">$ git branch newbranch</span><span class="s7"> </span><span class="s8">명령을</span><span class="s7"> </span><span class="s8">통해</span><span class="s7"> "newbranch"</span><span class="s8">라는</span><span class="s7"> branch</span><span class="s8">를</span><span class="s7"> </span><span class="s8">만든다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">"amamov/main" branch</span><span class="s8">는</span><span class="s7"> </span><span class="s8">팀장의</span><span class="s7"> </span><span class="s8">코드를</span><span class="s7"> </span><span class="s8">가져오는</span><span class="s7"> </span><span class="s8">순수</span><span class="s7"> branch</span><span class="s8">이다</span><span class="s7">. (amamov</span><span class="s8">가</span><span class="s7"> </span><span class="s8">추가적으로</span><span class="s7"> </span><span class="s8">코드</span><span class="s7"> </span><span class="s8">작업을</span><span class="s7"> </span><span class="s8">하지</span><span class="s7"> </span><span class="s8">않고</span><span class="s7"> </span><span class="s8">순수하게</span><span class="s7"> </span><span class="s8">팀장의</span><span class="s7"> </span><span class="s8">코드를</span><span class="s7"> </span><span class="s8">가져온</span><span class="s7"> branch)</span></li>
+    <li class="li2"><span class="s2"></span><span class="s7">"amamov/newbranch" branch</span><span class="s8">는</span><span class="s7"> </span><span class="s8">팀장의</span><span class="s7"> </span><span class="s8">코드와</span><span class="s7"> amamov</span><span class="s8">가</span><span class="s7"> </span><span class="s8">추가적으로</span><span class="s7"> </span><span class="s8">코드</span><span class="s7"> </span><span class="s8">작업을</span><span class="s7"> </span><span class="s8">진행한</span><span class="s7"> branch</span><span class="s8">이다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git checkout newbranch</span><span class="s6"> </span><span class="s8">명령으로</span><span class="s6"> "newbranch"</span><span class="s8">에</span><span class="s6"> </span><span class="s8">들어간다</span><span class="s6">.</span></li>
+  <li class="li8"><span class="s2"></span><span class="s7">amamov</span><span class="s8">는</span><span class="s7"> newbranch</span><span class="s8">에서</span><span class="s7"> </span><span class="s8">코드를</span><span class="s7"> </span><span class="s8">작성하고</span><span class="s7"> </span><span class="s8">파일을</span><span class="s7"> </span><span class="s8">만드는</span><span class="s7"> </span><span class="s8">등</span><span class="s7"> </span><span class="s8">작업을</span><span class="s7"> </span><span class="s8">한다</span><span class="s7">.</span></li>
+  <ul class="ul2">
+    <li class="li10"><span class="s2"></span><span class="s7">$ git add .</span></li>
+    <li class="li10"><span class="s2"></span><span class="s7">$ git commit</span></li>
+    <ul class="ul3">
+      <li class="li15"><span class="s9"></span><span class="s10">i</span><span class="s7">를</span><span class="s6"> </span><span class="s7">누르고</span><span class="s6"> </span><span class="s7">내용</span><span class="s6"> </span><span class="s7">작성</span><span class="s6"> </span><span class="s7">후에</span><span class="s6"> esc</span><span class="s7">키를</span><span class="s6"> </span><span class="s7">누르고</span><span class="s6"> </span><span class="s10">:wq!</span><span class="s7">명령어로</span><span class="s6"> </span><span class="s7">저장하고</span><span class="s6"> </span><span class="s7">나간다</span><span class="s6">.</span></li>
+    </ul>
+    <li class="li10"><span class="s2"></span><span class="s7">$ git push origin newbranch</span></li>
+    <ul class="ul3">
+      <li class="li2"><span class="s2"></span><span class="s7">"newbranch"</span><span class="s8">를</span><span class="s7"> origin</span><span class="s8">에</span><span class="s7"> push</span><span class="s8">한다</span><span class="s7">.</span></li>
+    </ul>
+  </ul>
+</ol>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>4. pull request</b></span></h3>
+<ol class="ol1">
+  <li class="li8"><span class="s2"></span><span class="s7">amamov</span><span class="s8">는</span><span class="s7"> </span><span class="s8">자신이</span><span class="s7"> fork</span><span class="s8">한</span><span class="s7"> REPO repository</span><span class="s8">에</span><span class="s7"> </span><span class="s8">들어가기</span><span class="s7"> </span><span class="s8">위해</span><span class="s7"> github</span><span class="s8">에</span><span class="s7"> </span><span class="s8">들어간다</span><span class="s7">.</span></li>
+  <li class="li8"><span class="s2"></span><span class="s7">github</span><span class="s8">의</span><span class="s7"> </span><span class="s8">해당</span><span class="s7"> repository</span><span class="s8">에</span><span class="s7"> </span><span class="s8">들어가서</span><span class="s7"> </span><span class="s10">Compare &amp; Pull request</span><span class="s7"> </span><span class="s8">버튼을</span><span class="s7"> </span><span class="s8">누른다</span><span class="s7">.</span></li>
+  <li class="li8"><span class="s2"></span><span class="s8">그</span><span class="s7"> </span><span class="s8">다음</span><span class="s7"> </span><span class="s10">Create pull request</span><span class="s8">를</span><span class="s7"> </span><span class="s8">눌러서</span><span class="s7"> pull request</span><span class="s8">를</span><span class="s7"> </span><span class="s8">시도한다</span><span class="s7">.</span></li>
+</ol>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>5. Merge pull request</b></span></h3>
+<ol class="ol1">
+  <li class="li8"><span class="s2"></span><span class="s8">탐장은</span><span class="s7"> github</span><span class="s8">에</span><span class="s7"> amamov</span><span class="s8">가</span><span class="s7"> pull request</span><span class="s8">한</span><span class="s7"> </span><span class="s10">amamov:newbranch</span><span class="s8">가</span><span class="s7"> </span><span class="s8">보인다</span><span class="s7">.</span></li>
+  <li class="li9"><span class="s5"></span><span class="s7">만약</span><span class="s6"> </span><span class="s7">충돌이</span><span class="s6"> </span><span class="s7">발생할</span><span class="s6"> </span><span class="s7">경우</span><span class="s6"> </span><span class="s7">충돌을</span><span class="s6"> </span><span class="s7">해결한다</span><span class="s6">.</span></li>
+  <li class="li25"><span class="s2"></span><span class="s7">Merge pull request</span><span class="s6"> </span><span class="s8">버튼으로</span><span class="s6"> </span><span class="s8">병합을</span><span class="s6"> </span><span class="s8">받아준다</span><span class="s6">.</span></li>
+  <ul class="ul2">
+    <li class="li15"><span class="s5"><b></b></span><span class="s6"><b>revert</b></span><span class="s7">를</span><span class="s6"> </span><span class="s7">이용하여</span><span class="s6"> </span><span class="s7">병합</span><span class="s6"> </span><span class="s7">이전으로</span><span class="s6"> </span><span class="s7">돌아갈</span><span class="s6"> </span><span class="s7">수</span><span class="s6"> </span><span class="s7">있다</span><span class="s6">.</span></li>
+  </ul>
+  <li class="li8"><span class="s2"></span><span class="s7">(</span><span class="s8">관리를</span><span class="s7"> </span><span class="s8">위해</span><span class="s7"> amamov</span><span class="s8">는</span><span class="s7"> newbranch</span><span class="s8">를</span><span class="s7"> </span><span class="s8">지우는</span><span class="s7"> </span><span class="s8">경우가</span><span class="s7"> </span><span class="s8">있다</span><span class="s7">.)</span></li>
+</ol>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p26"><span class="s1"><b></b></span><br></p>
+<h3 style="margin: 0.0px 0.0px 16.0px 0.0px; font: 15.0px 'Helvetica Neue'; color: #1b1f23; -webkit-text-stroke: #1b1f23; background-color: #ffffff"><span class="s1"><b>6. </b></span><span class="s18"><b>팀장</b></span><span class="s1"><b>(repository </b></span><span class="s18"><b>관리자</b></span><span class="s1"><b>)</b></span><span class="s18"><b>이</b></span><span class="s1"><b> REPO repository</b></span><span class="s18"><b>를</b></span><span class="s1"><b> </b></span><span class="s18"><b>수정하였을</b></span><span class="s1"><b> </b></span><span class="s18"><b>때</b></span><span class="s1"><b> amamov(</b></span><span class="s18"><b>팀원</b></span><span class="s1"><b>)</b></span><span class="s18"><b>가</b></span><span class="s1"><b> </b></span><span class="s18"><b>팀장이</b></span><span class="s1"><b> </b></span><span class="s18"><b>수정한</b></span><span class="s1"><b> "joy/main"</b></span><span class="s18"><b>을</b></span><span class="s1"><b> </b></span><span class="s18"><b>가져와야</b></span><span class="s1"><b> </b></span><span class="s18"><b>한다</b></span><span class="s1"><b>.</b></span></h3>
+<p class="p21"><span class="s16">amamov</span><span class="s1">는</span><span class="s16"> </span><span class="s1">자신의</span><span class="s16"> </span><span class="s1">로컬</span><span class="s16"> </span><span class="s1">환경의</span><span class="s16"> REPO</span><span class="s1">에서</span><span class="s16"> </span><span class="s1">다음과</span><span class="s16"> </span><span class="s1">같은</span><span class="s16"> </span><span class="s1">작업을</span><span class="s16"> </span><span class="s1">수행한다</span><span class="s16">.</span></p>
+<ol class="ol1">
+  <li class="li25"><span class="s2"></span><span class="s7">$ git remote add upstream &lt;joy-URL&gt;</span><span class="s6"> <b>(</b></span><span class="s19"><b>최초</b></span><span class="s6"><b> </b></span><span class="s19"><b>한</b></span><span class="s6"><b> </b></span><span class="s19"><b>번만</b></span><span class="s6"><b>)</b></span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">"upstream"</span><span class="s8">이라는</span><span class="s7"> </span><span class="s8">이름으로</span><span class="s7"> joy</span><span class="s8">의</span><span class="s7"> repository URL</span><span class="s8">을</span><span class="s7"> remote</span><span class="s8">한다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git fetch upstream</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">upstream</span><span class="s8">에</span><span class="s7"> fetch</span><span class="s8">한다</span><span class="s7">.(</span><span class="s8">일단</span><span class="s7"> </span><span class="s8">가져온다</span><span class="s7">.)</span></li>
+    <li class="li15"><span class="s5"></span><span class="s7">변겨</span><span class="s6"> </span><span class="s7">사항</span><span class="s6"> </span><span class="s7">확인</span><span class="s6"> </span><span class="s7">가능</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git checkout main</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">"main" branch</span><span class="s8">로</span><span class="s7"> </span><span class="s8">들어간다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git merge upstream/main</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">"upstream"</span><span class="s8">과</span><span class="s7"> main</span><span class="s8">을</span><span class="s7"> </span><span class="s8">병합한다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git checkout newbranch</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s8">작업용</span><span class="s7"> branch</span><span class="s8">인</span><span class="s7"> "newbranch"</span><span class="s8">에</span><span class="s7"> </span><span class="s8">들어간다</span><span class="s7">.</span></li>
+  </ul>
+  <li class="li25"><span class="s2"></span><span class="s7">$ git merge main</span></li>
+  <ul class="ul2">
+    <li class="li2"><span class="s2"></span><span class="s7">"main" branch</span><span class="s8">와</span><span class="s7"> </span><span class="s8">현재</span><span class="s7"> branch</span><span class="s8">인</span><span class="s7"> "new branch"</span><span class="s8">를</span><span class="s7"> </span><span class="s8">병합한다</span><span class="s7">.</span></li>
+  </ul>
+</ol>
+</body>
+</html>
